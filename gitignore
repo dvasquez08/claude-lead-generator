@@ -1,0 +1,9 @@
+# secrets
+.env
+# generated lead data (contains personal contact info after enrichment)
+leads/*.csv
+leads/*.md
+!leads/.gitkeep
+# cached tool results
+.cache/*
+!.cache/.gitkeep

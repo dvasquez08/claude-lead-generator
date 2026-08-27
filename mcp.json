@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "tavily": {
+      "type": "http",
+      "url": "https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}"
+    },
+    "prospeo": {
+      "command": "npx",
+      "args": ["-y", "@prospeo/prospeo-mcp-server"],
+      "env": {
+        "PROSPEO_API_KEY": "${PROSPEO_API_KEY}"
+      }
+    }
+  }
+}
