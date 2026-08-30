@@ -279,7 +279,7 @@ keys (or use the permanent method), relaunch from that same window.
 - **Tavily** — discovery uses _basic_ depth (1 credit/search) and caches to `.cache/`, so
   re-runs (or re-shooting a recording) don't re-spend credits. A full discovery run stays
   well under 100 of the 1,000 monthly free credits.
-- **Prospeo** — gated behind your explicit `/enrich` selection. Email finds are ~0.5 credit
+- **Prospeo** — gated behind your explicit `/enrich` selection. Email finds are ~1 credit
   each; the system never pulls mobile numbers (those cost far more). `/enrich` checks your
   balance (a free call) before spending anything.
 
